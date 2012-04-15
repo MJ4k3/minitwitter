@@ -33,6 +33,16 @@
 	font-size:16px;
 }
 
+.tweets_header a {
+	color:#333;
+	text-decoration:none;
+}
+
+.tweets_header a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
 .tweets_footer {
 	padding:6px 12px;
 }
@@ -59,6 +69,7 @@
 }
 
 .tweets_footer #bird, .mt_footer .image_r {
+	display:block;
 	background:url("http://twimg0-a.akamaihd.net/a/1331143368/t1/img/twitter_web_sprite_icons.png") no-repeat;
 }
 
