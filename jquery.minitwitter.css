@@ -5,7 +5,7 @@
 	border:1px solid #e7e7e7;
 	border-radius:5px;
 	max-width:520px;
-	font:14px/18px "Tahoma",Helvetica,Arial,sans-serif;
+	font:13px/17px "Tahoma",Helvetica,Arial,sans-serif;
 	color:#333;
 	background-color:#fff;
 	margin:auto;
@@ -17,7 +17,6 @@
 }
 
 .tweets a:hover {
-	color:#0083b3;
 	text-decoration:underline;
 }
 
@@ -30,21 +29,21 @@
 	border-bottom:1px solid #e7e7e7;
 	padding:12px 12px;
 	font-weight:bold;
-	font-size:16px;
+	font-size:14px;
 }
 
-.tweets_header a {
-	color:#333;
-	text-decoration:none;
+.tweets .tweets_header a {
+	color:#333 !important;
+	text-decoration:none !important;
 }
 
-.tweets_header a:hover {
-	color:#333;
-	text-decoration:underline;
+.tweets .tweets_header a:hover {
+	text-decoration:underline !important;
 }
 
 .tweets_footer {
 	padding:6px 12px;
+	text-align: center;
 }
 
 .tweets_footer span.powered {
@@ -69,12 +68,12 @@
 }
 
 .tweets_footer #bird, .mt_footer .image_r {
-	display:block;
 	background:url("http://twimg0-a.akamaihd.net/a/1331143368/t1/img/twitter_web_sprite_icons.png") no-repeat;
 }
 
 
 .tweets_footer #bird{
+	display:inline-block;
 	margin:10px auto;
 	background-position: 0 0;
 	width: 34px;
@@ -84,7 +83,7 @@
 .time {
 	float:right;
 	color:#999;
-	font-size:12px;
+	font-size:11px;
 }
 
 .avatar {
@@ -98,7 +97,7 @@
 }
 
 .mt_header {
-	padding-bottom:4px;
+	padding-bottom:2px;
 	padding-left:60px;
 }
 
@@ -111,10 +110,6 @@
 	font-weight:bold;
 	color:#333;
 	text-decoration:none;
-}
-
-.mt_header a:hover {
-	font-weight:bold;
 }
 
 .mt_text {
