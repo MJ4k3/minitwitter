@@ -20,12 +20,12 @@
 	text-decoration:underline;
 }
 
-.tweet {
+.tweets .tweet {
 	border-bottom:1px solid #e7e7e7;
 	padding:12px 12px;
 }
 
-.tweets_header {
+.tweets .tweets_header {
 	border-bottom:1px solid #e7e7e7;
 	padding:12px 12px;
 	font-weight:bold;
@@ -35,6 +35,9 @@
 .tweets .tweets_header a {
 	color:#333 !important;
 	text-decoration:none !important;
+	font-weight:bold !important;
+	font-style:normal !important;
+	text-transform:lowercase !important;
 }
 
 .tweets .tweets_header a:hover {
@@ -80,19 +83,19 @@
 	height: 26px;
 }
 
-.time {
+.tweets .tweet .time {
 	float:right;
 	color:#999;
 	font-size:11px;
 }
 
-.avatar {
+.tweets .tweet .avatar {
 	float:left;
 	margin-right:12px;
 	border-radius:5px;
 }
 
-.avatar img {
+.tweets .tweet .avatar img {
 	border-radius:5px;
 }
 
